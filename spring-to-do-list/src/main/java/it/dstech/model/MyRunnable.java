@@ -19,12 +19,10 @@ public class MyRunnable implements Runnable {
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		User user = activity.getUser();
 		try {
 			emailService.sendEmail(user.getEmail(), activity.getTitolo(), "Questa attività scade tra 5 minuti!");
 		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import it.dstech.model.Image;
 import it.dstech.model.Ruolo;
 import it.dstech.model.User;
 import it.dstech.repository.RuoloRepository;
